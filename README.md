@@ -10,5 +10,6 @@ prerequisites:
 ###Setup
 
 
-1. run **prepare.sh** with the paths to the utils module and the word embeddings. e.g. ./prepare.sh _PATH_TO_UTILS_ _PATH_TO_EMBEDDINGS_
+1. clone or download the my_utils module and place it under the folder **code**
+2. run **prepare.sh** with the paths to the utils module and the word embeddings. e.g. ./prepare.sh _PATH_TO_UTILS_ _PATH_TO_EMBEDDINGS_
 
