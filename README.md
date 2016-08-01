@@ -10,5 +10,5 @@ prerequisites:
 ###Setup
 
 
-1. run prepare.sh, e.g. ./prepare.sh PATH_TO_UTILS PATH_TO_EMBEDDINGS
+1. run **prepare.sh** with the paths to the utils module and the word embeddings. e.g. ./prepare.sh _PATH_TO_UTILS_ _PATH_TO_EMBEDDINGS_
 
