@@ -181,10 +181,10 @@ def process_data(train_file, clean, w2v_file=None, u2v_file=None,
         W, word_idx_map = get_W(rand_vecs)
     
     if u2v_file:
-        u2v = load_word2vec(u2v_file, users, False)
-        j = len(w2v.itervalues().next())
+        u2v = load_word2vec(u2v_file, users, False)        
+        j = len(u2v.itervalues().next())
         print "user2vec loaded (%d, %d)" % (len(u2v), j)
-        add_unknown_words(u2v, users, k)
+        add_unknown_words(u2v, users, j)
         U, user2idx = get_W(u2v)
     else:
         print "Random user vectors"
