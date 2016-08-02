@@ -3,7 +3,7 @@ CUE-CNN
 
 Code for the sarcasm detection system described in the paper *Modelling Context with User Embeddings for Sarcasm Detection in Social Media* [[paper] (https://arxiv.org/abs/1607.00976)] [[bib] ()]
 
-The CNN implemention was forked from this [repo] (https://github.com/attardi/CNN_sentence) (which was forked this [repo] (https://github.com/yoonkim/CNN_sentence))
+The CNN implemention was forked from [Giuseppe Attardi] (https://github.com/attardi/CNN_sentence) (which was forked this [Yoon Kim] (https://github.com/yoonkim/CNN_sentence))
 
 pre-requisites:
 
