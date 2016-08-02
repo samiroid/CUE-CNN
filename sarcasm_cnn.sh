@@ -1,1 +1,1 @@
-THEANO_FLAGS="cuda.root=/opt/apps/cuda/7.5/,device=gpu,floatX=float32,force_device=True" python code/train_cnn.py DATA/pkl/sarcasm_cnn DATA/txt/bamman_clean.txt -train -userField 1 -tagField 2 -textField 3 -vectors DATA/embeddings/filtered_embs.txt -user_vectors DATA/embeddings/usr2vec_400_master_4.txt -epochs 10
+python code/train_cnn.py DATA/pkl/sarcasm_cnn DATA/txt/bamman_clean.txt -train -userField 1 -tagField 2 -textField 3 -vectors DATA/embeddings/filtered_embs.txt -user_vectors DATA/embeddings/usr2vec.txt -epochs 10

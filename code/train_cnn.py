@@ -154,7 +154,7 @@ if __name__=="__main__":
     # max_l = 56 # DEBUG: max(x["num_words"] for x in sents)
     height = max_l + 2 * pad # padding on both sides
     classes = set(x["y"] for x in sents)
-    width = U.shape[1]
+    width = W.shape[1]
     conv_non_linear = "relu"
     batch_size = 128
     dropout_rate = args.dropout
