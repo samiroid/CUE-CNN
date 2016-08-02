@@ -11,9 +11,17 @@ pre-requisites:
 * pre-trained word embeddings (e.g. Skip-gram)
 * user embeddings -> The embeddings we used can be found [here](). If you want to train your own embeddings you can use the code available [here](https://github.com/samiroid/usr2vec). 
 
-###Setup
+requirements:
+* python >= 2.7
+* numpy
+* theano
 
-1. clone or download the [my_utils] (https://github.com/samiroid/utils) module and place it under the folder **code**
-2. run **prepare.sh** with the paths to the utils module and the word embeddings. e.g. ./prepare.sh _PATH_TO_UTILS_ _PATH_TO_EMBEDDINGS_
-3. run **sarcasm_cnn.sh** 
+## Running the code
+
+1. clone or download the [my_utils] (https://github.com/samiroid/utils) module and place it under the folder `code`
+2. run `prepare.sh` with the paths to the utils module and the word embeddings: `./prepare.sh PATH_TO_WORD_EMBEDDINGS PATH_TO_USER_EMBEDDINGS`
+3. run `sarcasm_cnn.sh` 
+
+## Replicate the results in the paper
+4. run `crossfolds.sh`
 
