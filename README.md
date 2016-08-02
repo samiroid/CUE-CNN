@@ -5,11 +5,11 @@ Code for the sarcasm detection system described in the paper *Modelling Context 
 
 The CNN implemention was forked from this [repo] (https://github.com/attardi/CNN_sentence) (which was forked this [repo] (https://github.com/yoonkim/CNN_sentence))
 
-prerequisites:
+pre-requisites:
 
 * my_utils -> https://github.com/samiroid/utils
 * pre-trained word embeddings (e.g. Skip-gram)
-* user embeddings -> The embeddings we used can be found [here](https://www.google.com). If you want to train your own embeddings you can use the code available [here](https://github.com/samiroid/usr2vec)
+* user embeddings -> The embeddings we used can be found [here](). If you want to train your own embeddings you can use the code available [here](https://github.com/samiroid/usr2vec)
 
 ###Setup
 
