@@ -9,7 +9,7 @@ pre-requisites:
 
 * my_utils -> https://github.com/samiroid/utils
 * pre-trained word embeddings (e.g. Skip-gram)
-* user embeddings -> The embeddings we used can be found [here](). If you want to train your own embeddings you can use the code available [here](https://github.com/samiroid/usr2vec). 
+* user embeddings -> The embeddings we used can be found [here](https://www.dropbox.com/s/pmp5x08v6w09jrq/usr2vec_400_master.txt?dl=0). If you want to train your own embeddings you can use the code available [here](https://github.com/samiroid/usr2vec). 
 
 requirements:
 * python >= 2.7
