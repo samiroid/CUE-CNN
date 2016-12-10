@@ -17,14 +17,9 @@ requirements:
 * theano
 
 ## Getting the data
-To comply with Twitter policies we can only share the msg ids. These can be found in the file `bamman_redux_ids.csv`
+To comply with Twitter policies we can only share the msg ids. These can be found in the file `bamman_redux_ids.txt`
 
 ## Running the code
 
 1. clone or download the [my_utils] (https://github.com/samiroid/utils) module and place it under the folder `code`
-2. run `prepare.sh` with the paths to the utils module and the word embeddings: `./prepare.sh PATH_TO_WORD_EMBEDDINGS PATH_TO_USER_EMBEDDINGS`
-3. run `sarcasm_cnn.sh` 
-
-## Replicating the results from the paper
-4. run `crossfolds.sh`
-
+2. run `juptyer notebook`; execute notebook `notebook.ipynb`
